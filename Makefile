@@ -10,26 +10,5 @@
 #                                                                              #
 # **************************************************************************** #
 
-HEADER			= minitalk.h
 
-LIBFT_DIR		= ./libft
-LIBFT			= libft.a
-
-SERVER			= server
-SERVER_SRCS		= server.c
-SERVER_OBJS		= server.o
-
-CLIENT			= client
-CLIENT_SRCS		= client.c
-CLIENT_OBJS		= client.o
-
-$(NAME):	
-
-all:
-
-clean:
-
-fclean:
-
-re:			fclean all
 
